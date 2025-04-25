@@ -8,11 +8,47 @@ This project demonstrates the use of **GitHub Copilot Agent Mode** to build a fu
 - 🌐 Open APIs like Alpha Vantage or Finnhub
 - 🤖 Built interactively with GitHub Copilot Agent in **GitHub Codespaces**
 
-## 🚀 Quick Start (in Codespaces)
+## Running Locally
 
-1. Open in GitHub Codespaces.
-2. Navigate to the `prompts/` directory.
-3. Open each `.md` file in order and follow the prompts.
-4. Copilot will guide you through building the project step-by-step.
+To run this project locally, follow these steps:
 
----
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd copilot-agent-poc-dashboard
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application**:
+   Open your browser and navigate to `http://localhost:3000`.
+
+## Running in GitHub Codespaces
+
+To run this project in GitHub Codespaces:
+
+1. **Open the Repository in Codespaces**:
+   - Navigate to the repository on GitHub.
+   - Click the "Code" button and select "Open with Codespaces".
+
+2. **Install Dependencies**:
+   Once the Codespace is ready, run:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application**:
+   The application will automatically be available on a forwarded port. Click the link provided in the terminal or Codespaces interface.
